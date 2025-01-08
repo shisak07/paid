@@ -347,7 +347,7 @@ async def start(update: Update, context: CallbackContext):
 
     # Check if the user is allowed to use the bot
     if not await is_user_allowed(user_id):
-        await context.bot.send_message(chat_id=chat_id, text="*❌ You are not authorized to use this bot!*", parse_mode='Markdown')
+        await context.bot.send_message(chat_id=chat_id, text="*❌ You are not authorized to use this bot!@ILLEGALCHEAT78*", parse_mode='Markdown')
         return
 
     message = (
